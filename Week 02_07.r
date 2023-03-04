@@ -38,4 +38,5 @@ ggplot(aes(x=mpg, y=vs, fill = vs), data = mtcars) + geom_boxplot(alpha=0.3) + t
 ggplot(aes(x=wt),data=mtcars) + geom_histogram(binwidth=0.5)
 
 ggpairs(iris, mapping=ggplot2::aes(colour = Species))
+ggpairs(mtcars, mapping=ggplot2::aes(colour = vs))
 
